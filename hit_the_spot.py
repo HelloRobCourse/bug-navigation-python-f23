@@ -1,6 +1,6 @@
 import time
 import numpy as np
-from mbot_bridge.api import Robot
+from mbot_bridge.api import MBot
 
 
 def drive_to_pose(goal_x, goal_y, goal_theta, robot):
@@ -13,11 +13,11 @@ def drive_to_pose(goal_x, goal_y, goal_theta, robot):
     pass
 
 
-robot = Robot()
+robot = MBot()
 # TODO: Declare any other variables you might need here.
 
 # Reset the robot odometry to zero at the beginning of the run.
-robot.reset_odom()
+robot.reset_odometry()
 
 """
 TODO: (P2.1) Call your function drive_to_pose() to drive to a sequence of
