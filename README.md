@@ -1,2 +1,4 @@
-# bug-navigation-python-f23
-Project 2: Bug Navigation template code.
+# Project 2: Bug Navigation - Python (F23)
+
+Template code for Project 2: Bug Navigation in Python. See [project instructions](https://hellorob.org/projects/p2)
+for more details.
